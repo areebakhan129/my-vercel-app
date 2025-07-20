@@ -61,7 +61,7 @@ const Contact = () => {
                 </li>
               </ul>
               <p className="text-light mt-3">
-                Email: <a href="mailto:areebakhan1806@gmail.com" className="text-decoration-underline text-light">areebakhan@example.com</a>
+                Email: <a href="mailto:areebakhan1806@gmail.com" className="text-decoration-underline text-light">areebakhan1806@gmail.com</a>
               </p>
             </div>
           </div>

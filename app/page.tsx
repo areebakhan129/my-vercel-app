@@ -8,7 +8,7 @@ import Certificates from '@/components/sections/Certificates';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import BootstrapClient from '@/components/BootstrapClient';
+//import BootstrapClient from '@/components/BootstrapClient';
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-      <BootstrapClient />
+    
     </>
   );
 }

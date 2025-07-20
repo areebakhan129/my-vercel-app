@@ -1,14 +1,4 @@
-// components/BootstrapClient.tsx
-'use client';
+'use client'; // Ensures this runs only on the client side in Next.js (App Router compatible)
 
-import { useEffect } from 'react';
-
-export default function BootstrapClient() {
-  useEffect(() => {
-    // Dynamically import Bootstrap JS when the component mounts on the client side
-    // This ensures 'window.bootstrap' is available.
-    require('bootstrap/dist/js/bootstrap.bundle.min.js');
-  }, []);
-
-  return null;
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
