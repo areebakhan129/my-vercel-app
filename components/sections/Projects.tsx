@@ -116,13 +116,22 @@ const projectsData = [
     githubLink: 'https://github.com/areebakhan129/school-management',
   },
   {
-    id: 6, // Assign a unique ID for the new project
+    id: 6,
     title: 'MediCore Hospital Management System',
     description:
       'A comprehensive hospital management system to streamline hospital operations, including patient management, appointments, and medical records.',
-    technologies: ['React', 'Firebase', 'Material-UI'], // Technologies updated here
+    technologies: ['React', 'Firebase', 'Material-UI'],
     imageUrls: Array.from({ length: 26 }, (_, i) => `/images/medicore${i + 1}.jpeg`),
     githubLink: 'https://github.com/areebakhan129/MediCore-hospital-management',
+  },
+  {
+    id: 7, // Unique ID for the new project
+    title: 'Travel Explorer',
+    description:
+      'TravelExplorer is a web-based project designed as a comprehensive travel guidance platform. It features a modern, visually engaging UI built with HTML and CSS, and uses PHP for server-side includes to ensure consistent headers and footers across all pages.',
+    technologies: ['HTML', 'CSS', 'PHP'], // Technologies as specified
+    imageUrls: Array.from({ length: 10 }, (_, i) => `/images/travel${i + 1}.png`), // Dynamically generated image URLs
+    githubLink: 'https://github.com/areebakhan129/Travel-Explorer',
   },
 ];
 
