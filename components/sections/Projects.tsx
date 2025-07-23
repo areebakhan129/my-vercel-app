@@ -85,18 +85,16 @@ const projectsData = [
     ],
     githubLink: 'https://github.com/muhammadkamran8837/plb-latest',
   },
-  {
+    {
     id: 4,
-    title: 'TrackItNow',
+    title: 'MediCore Hospital Management System',
     description:
-      'A habit and task tracking app developed using React and Firebase.',
-    technologies: ['React', 'Firebase'],
-    imageUrls: [
-      '/images/trackitnow-screenshot-1.png',
-      '/images/trackitnow-screenshot-2.png',
-    ],
-    githubLink: 'https://github.com/areebakhan129/trackitnow-web',
+      'A comprehensive hospital management system to streamline hospital operations, including patient management, appointments, and medical records.',
+    technologies: ['React', 'Firebase', 'Material-UI'],
+    imageUrls: Array.from({ length: 26 }, (_, i) => `/images/medicore${i + 1}.jpeg`),
+    githubLink: 'https://github.com/areebakhan129/MediCore-hospital-management',
   },
+  
   {
     id: 5,
     title: 'School Management System',
@@ -115,14 +113,17 @@ const projectsData = [
     ],
     githubLink: 'https://github.com/areebakhan129/school-management',
   },
-  {
+{
     id: 6,
-    title: 'MediCore Hospital Management System',
+    title: 'TrackItNow',
     description:
-      'A comprehensive hospital management system to streamline hospital operations, including patient management, appointments, and medical records.',
-    technologies: ['React', 'Firebase', 'Material-UI'],
-    imageUrls: Array.from({ length: 26 }, (_, i) => `/images/medicore${i + 1}.jpeg`),
-    githubLink: 'https://github.com/areebakhan129/MediCore-hospital-management',
+      'A habit and task tracking app developed using React and Firebase.',
+    technologies: ['React', 'Firebase'],
+    imageUrls: [
+      '/images/trackitnow-screenshot-1.png',
+      '/images/trackitnow-screenshot-2.png',
+    ],
+    githubLink: 'https://github.com/areebakhan129/trackitnow-web',
   },
   {
     id: 7, // Unique ID for the new project
