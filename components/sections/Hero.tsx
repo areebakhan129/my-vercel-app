@@ -32,7 +32,8 @@ const Hero = () => {
               <h1 className="display-4 fw-bold mb-3">
                 Areeba Khan <br />
                 <span className="text-primary">Software Engineer</span> <br />
-                <span className="text-primary">Web Developer</span>
+                <span className="text-primary">Web Developer 
+                   , React Native Developer  </span>
               </h1>
 
               <p className="lead mb-4">

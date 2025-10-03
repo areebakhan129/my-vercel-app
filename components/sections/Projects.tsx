@@ -134,6 +134,28 @@ const projectsData = [
     imageUrls: Array.from({ length: 10 }, (_, i) => `/images/travel${i + 1}.png`), // Dynamically generated image URLs
     githubLink: 'https://github.com/areebakhan129/Travel-Explorer',
   },
+  {
+    id: 8, // Next unique ID
+    title: 'restaurant-app',
+    description:
+      'A restaurant app project showcasing a modern UI and features for restaurant management and food ordering.',
+    technologies: ['React', 'Firebase', 'Material-UI'],
+    imageUrls: [
+      '/images/res1 (1).jpg',
+      '/images/res1 (2).jpg',
+      '/images/res1 (3).jpg',
+      '/images/res1 (4).jpg',
+      '/images/res1 (5).jpg',
+      '/images/res1 (6).jpg',
+      '/images/res1 (7).jpg',
+      '/images/res1 (8).jpg',
+      '/images/res1 (9).jpg',
+      '/images/res1 (10).jpg',
+      '/images/res1 (11).jpg',
+    ],
+    githubLink: 'https://github.com/areebakhan129/restaurant-app',
+  },
+
 ];
 
 const Projects = () => {
